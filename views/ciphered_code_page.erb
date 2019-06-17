@@ -1,0 +1,22 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Caesar Cipher</h1>
+
+    <form>
+      Please enter the code you would like converted to Caesar Cipher.<br><br>
+      <input type="text" name="unciphered_code">
+      <br><br>
+      Please enter the shift factor to convert code to Caesar Cipher.<br><br>
+      <input type="number" name="shift_factor">
+      <br><br>
+      <input type="submit" value="Convert to Caesar Cipher">
+    </form>
+
+    <h3>Original Unciphered Code</h3>
+    <p><%= unciphered_code %></p>
+
+    <h3>Code converted to Caesar Cipher</h3>
+    <p><%= ciphered_code %></p>
+  </body>
+</html>

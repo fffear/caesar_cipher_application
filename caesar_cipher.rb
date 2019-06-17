@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader'
+require 'sinatra/reloader' if development?
 
 def caesar_cipher(string, shift_factor)
   caesar_cipher_string = ""
